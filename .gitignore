@@ -1,0 +1,31 @@
+# Ignore Rust build artifacts
+/target/
+
+# Ignore Cargo lock file (if not committing lock files)
+/Cargo.lock
+
+# Ignore IDE/editor specific files
+*.idea/
+*.vscode/
+*.swp
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore node_modules (if using JavaScript/TypeScript in the project)
+/node_modules/
+
+# Ignore environment files
+.env
+.env.*
