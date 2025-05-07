@@ -1,0 +1,9 @@
+[package]
+name = "day8-counter_contract"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+borsh = "1.5.7"
+borsh-derive = "1.5.7"
+solana-program = "2.2.1"
